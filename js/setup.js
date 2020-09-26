@@ -6,10 +6,10 @@ var COAT_COLORS = ['rgb(101, 137, 164)', 'rgb(241, 43, 107)', 'rgb(146, 100, 161
 var EYE_COLORS = ['black', 'red', 'blue', 'yellow', 'green'];
 var names = [];
 var wizards = new Array(4);
-var wizardNames = WIZARD_NAMES;
-var wizardSurames = WIZARD_SURNAMES;
-var coatColors = COAT_COLORS;
-var eyesColors = EYE_COLORS;
+var wizardNames = WIZARD_NAMES.slice();
+var wizardSurames = WIZARD_SURNAMES.slice();
+var coatColors = COAT_COLORS.slice();
+var eyesColors = EYE_COLORS.slice();
 
 var userDialog = document.querySelector('.setup');
 userDialog.classList.remove('hidden');
